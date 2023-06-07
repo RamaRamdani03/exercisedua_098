@@ -6,7 +6,7 @@ private:
     int x; // variabel untuk menyimpan input dari lingkaran maupun bujursangkar
 public:
     bidangDatar() { // constructor
-        x = 0;
+        x = 0; 
     }
     virtual void input() = 0; // fungsi yang menerima input dan mengirim input melalui fungsi setX untuk disimpan di x
     virtual float Luas(int a) = 0; // fungsi untuk menghitung luas
